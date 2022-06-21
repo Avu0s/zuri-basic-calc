@@ -4,8 +4,8 @@
 let result, operator, firstNumber, secondNumber
 
 //Assigning variables to each prompt input
-firstNumber = parseInt(prompt(`Enter 1st number`)) 
-operator = prompt('Enter operator')
+firstNumber = parseInt(prompt(`Enter first number`)) 
+operator = prompt('Enter one operator i.e  +  or  -  or  *  or  /')
 secondNumber = parseInt(prompt(`Enter second number`)) 
 
 //checking for the operation choosen by the user
@@ -26,7 +26,7 @@ else if (operator == '/'){
     alert(`${firstNumber} ${operator} ${secondNumber} = ${result}`)
 }
 else{
-    alert(`Come on, Invalid operation: ${firstNumber} ${operator} ${secondNumber}`)
+    alert(`Invalid Operation: ${firstNumber} ${operator} ${secondNumber}`)
 }
 //Log full result of calcution
 console.log(`${firstNumber} ${operator} ${secondNumber} = ${result}`)
